@@ -1,0 +1,197 @@
+/* @media (max-width: 576) {
+  .call-text1.p-2 h6 {
+    text-align: center;
+    padding-left: 50px;
+  }
+
+  .banner1 h1.w-75.m-auto.my-3 {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+  .banner {
+   
+   width: 100%;
+   height: auto
+  
+ }
+}
+
+@media (max-width: 767) {
+  .call-text1.p-2 h6 span {
+    color: red;
+  }
+}
+
+@media (max-width: 414){
+   .banner1>h1.w-75.m-auto.my-3 {
+      padding-top: 12px;
+      font-size: 17px;
+  }
+} */
+
+@media (max-width: 576px) {
+  /* top header moblie size */
+  .call-text1.p-2 {
+    text-align: center;
+  }
+
+
+  /* slider start */
+  .carousel-item img {
+    height: 65vh;
+
+  }
+
+  .carousel-inner {
+    height: 65vh;
+}
+
+.carousel-text h5.h5-text{
+  font-style: 30px;
+}
+  /* slider End */
+
+
+  /* section counter-up start  */
+  .counter-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+  }
+  .counter-row {
+    width: 85%;
+    margin-left: -42px;
+  }
+
+
+  .counter-row h3 {
+   font-size: 16px;
+  }
+
+
+  .counter-row>h6 {
+   font-size: 16px;
+  }
+
+  .icons1{
+    font-size: 40px;
+  }
+
+  .hero {
+    background-size: 100vh;
+  }
+
+
+
+  .hero1{
+    padding: 20px 20px 20px 20px;
+  }
+
+
+  .counter-col h6{
+    padding-top: 5px;
+  }
+
+
+  .hero{
+    width: 119%;
+  }
+  
+  .counter-box4 {
+    /* padding-top: 45px; */
+}
+
+.counter-box3 {
+  /* padding-top: 45px; */
+}
+  
+/* section counter-up End */
+
+
+
+/* about 2nd section start */
+.card-text-card{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  }
+
+  .row.py-5.maain-card{
+   padding-bottom: 40px;
+  }
+  
+  #about {
+    margin-bottom: -40px;
+  }
+
+  .about-left-text{
+    text-align: center;
+  }
+
+  .about-left-text p{
+    width: 90%;
+    margin: auto;
+  }
+
+  .about-left-text .about-btn{
+    padding-top: 20px;
+  }
+  /* about 2nd section End */
+
+  .banner1 h1 {
+    font-size: 20px;
+    padding: 40px;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto;
+    min-height: 50vh;
+    max-height: 70vh;
+  }
+
+
+
+  /* footer start */
+  footer {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .footer1{
+    line-height: 1;
+    text-align: center;
+  }
+
+  .footer-side{
+    line-height: 1;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .footer-logo{
+    text-align: center;
+  }
+
+  .footer-iner-text{
+    padding-top: 15px;
+  }
+
+  .last-footer {
+    width: 100%;
+    height: 15vh;
+  }
+
+  .fo-right{
+    text-align: center ;
+  }
+  /* footer End */
+}
+

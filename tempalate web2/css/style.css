@@ -1,0 +1,352 @@
+.call-header {
+  background-color: rgb(30, 13, 58);
+}
+
+.call-icon p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.all-icon {
+  color: white;
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
+  margin-right: 104px;
+  gap: 20px;
+}
+
+.all-icon i.fa.fa-youtube-play {
+  color: red;
+}
+
+/* top header End */
+
+.logo {
+  color: rgb(44, 108, 198);
+  font-size: 35px;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+}
+
+.navbar nav ul {
+  display: flex;
+  gap: 44px;
+  margin-top: 25px;
+  margin-left: 82px;
+}
+
+.navbar nav ul li {
+  list-style: none;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.btn-btn {
+  background-color: rgb(44, 108, 198);
+  width: 70px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.btn-btn a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  margin-left: 8px;
+}
+
+/* <!-- header End -->
+
+<!-- section start --> */
+
+.sec-1 {
+  /* width: 100vw;
+    height: 100vh;
+    background: url(../images/page-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+  background: linear-gradient(rgba(40, 120, 235, 0.9), rgba(40, 120, 235, 0.9)),
+    url(../images/page-header.jpg), no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
+}
+
+h1.front-text {
+  font-size: 93px;
+  color: white;
+  text-align: center;
+  margin-top: 96px;
+}
+
+h1.front-taxt {
+  text-align: center;
+  color: wheat;
+}
+
+.p1 p a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 600px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.btnn {
+  background-color: #bc5775;
+  width: 100px;
+  height: 60px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.content2 input[type="text"] {
+  height: 59px;
+  width: 335px;
+}
+
+.content a {
+  font-size: 20px;
+}
+
+.side {
+  margin-top: 20px;
+  margin-left: 23px;
+}
+
+/* sec-1 end 
+sec-2 start */
+
+.head1 h6 {
+  text-align: center;
+  margin-top: 50px;
+  /* color: red; */
+  color: #bc5775;
+}
+
+.head1 h6::before {
+  position: absolute;
+  content: "";
+  width: 8%;
+  height: 8%;
+  bottom: 0;
+  left: 46%;
+  border-top: 2px dashed #bc5775;
+}
+
+.head3 h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  word-wrap: 2px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-top: 50px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: 2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotatey(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h1 {
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.flip-card-back p {
+  text-align: center;
+}
+
+.card-icon {
+  margin-left: 100px;
+  gap: 50px;
+}
+
+/* sec-2 End 
+
+sec-3 start  */
+
+.sec-3 {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(30, 13, 58);
+  margin-top: 40px;
+}
+
+.logo-again a {
+  font-size: 40px;
+  text-decoration: none;
+  list-style: none;
+  color: azure;
+  margin-top: 50px;
+  display: flex;
+  margin-left: 60px;
+}
+.logo-again p {
+  color: white;
+  margin: auto;
+  width: 80%;
+}
+
+
+.logo-right h3 {
+  color: white;
+  margin-top: 63px;
+  text-align: center;
+  font-size: 47px;
+}
+
+.logo-right input[type="text"] {
+  width: 205px;
+  height: 54px;
+  margin-left: 186px;
+}
+
+.logo-right a.right {
+  background-color: #bc5775;
+  padding: 16px 5px;
+}
+
+.logo-right a{
+ color: white;
+ text-decoration: none;
+ list-style: none;
+}
+
+.down-text{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.down-text i.fa.fa{
+  color: white;
+}
+
+.down-text h3{
+  color: white;
+}
+
+.down-text p{
+  color: rgb(138, 131, 149);
+}
+
+.down-text .icons{
+  gap: 3px;
+}
+
+.center-text{
+  margin-top: 20px;
+}
+
+.center-text h3{
+  color: white;
+}
+
+.center-text i.fa.fa-angle-right{
+  color: white;
+}
+
+.center-text a{
+  color: rgb(138, 131, 149);
+}
+
+.right-text{
+  margin-top: 20px;
+}
+
+.right-text h3{
+  color: white;
+}
+
+.right-text i.fa.fa-angle-right{
+  color: white;
+}
+
+.right-text a{
+  color: rgb(138, 131, 149);
+}
+
+/* sec-3 End
+
+footer start */
+
+footer{
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(30, 13, 58);
+  position: relative;
+}
+
+footer .footer{
+  text-align: center;
+  color: white;
+}
+
+hr{
+  color: white;
+}
+
+footer .footer1{
+  color: white;
+  text-align: right;
+}

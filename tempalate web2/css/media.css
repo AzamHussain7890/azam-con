@@ -1,0 +1,8 @@
+@media (max-width: 576){
+    .call-icon p{
+            padding-top: 35px;
+    }
+    .text-banner h1{
+        font-size: 20px;
+    }
+}
